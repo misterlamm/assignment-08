@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+#app-container {
+  font-family: sans-serif;
+  background-color: lightgreen; }
+
+.navbar {
+  color: white;
+  display: block; }
+
+.navbar ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.navbar li {
+  float: left; }
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.navbar .navbar-ul2 {
+  float: right; }
+
+.top-button {
+  text-align: center; }
+
+.top-button a {
+  background-color: lightgreen;
+  color: grey;
+  border-color: grey; }
+
+.header-text {
+  text-align: center;
+  margin: 40px 50px; }
+
+.container-profiles {
+  margin: 0 50px; }
+
+.mid-image {
+  position: relative;
+  top: 0;
+  left: 0; }
+
+.img1 {
+  width: 50%;
+  z-index: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: 90px;
+  margin-left: 260px; }
+
+.img2 {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.jt-2 {
+  margin-top: 100px;
+  background-color: lightgreen; }
+
+.jt-2 {
+  text-align: center; }
+
+.jt-2 h1 {
+  font-size: 50px; }
+
+.bottom-row {
+  text-align: center; }
+
+.footer-image {
+  background-image: url("../images/assets/solrod-drawingboard-background.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 0 -50px; }
+
+.footer-image a {
+  margin-top: 250px;
+  height: 50px;
+  width: 200px; }
+
+.footer-sm {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 150px; }
+
+.footer-sm img {
+  display: inline-block;
+  width: 65px;
+  float: right;
+  padding-right: 20px; }
+
+@media only screen and (max-width: 768px) {
+  .mid-image {
+    display: none; }
+
+  .top-container .navbar {
+    display: none; }
+
+  .footer-sm {
+    float: left; } }
+
+/*# sourceMappingURL=styles.css.map */
